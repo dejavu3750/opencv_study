@@ -1,1 +1,19 @@
  
+# Ignore Python virtual environment folders
+env/
+
+# Ignore Conda environments (if applicable)
+*env
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore cache files
+__pycache__/
+*.pyc
+*.pyo
